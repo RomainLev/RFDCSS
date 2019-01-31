@@ -1,4 +1,4 @@
-@import url("reset.css");
+/*@import url("reset.css"); */
 /* Début de commentaire
 Fin de commentaire */
 body{
@@ -43,4 +43,15 @@ p#trois{
 
 p#quatre{
   background-color: red;
+}
+
+ul {
+  list-style-type: disc;
+}
+ul li{
+  color: red;
+}
+
+ul li ul li{
+  color: green;
 }
