@@ -1,6 +1,21 @@
+@import url("reset.css");
+/* Début de commentaire
+Fin de commentaire */
+body{
+  font-size: 12px;
+  font-family: Arial, Verdana, sans-serif;
+}
+.deTravers {
+  font-style: italic;
+}
+
+.barre{
+  text-decoration: line-through;
+}
 h1 {
   color: #ff0000;
   background-color: black;
+  font-size: 20px;
 }
 
 h2 {
@@ -9,6 +24,23 @@ h2 {
 }
 
 p {
-  color: #0000ff;
-  background-color: purple;
+  color: black;
+  font-size: 20px;
+}
+
+p#un{
+  background-color: yellow;
+}
+
+p#deux{
+  background-color: green;
+  text-decoration: none;
+}
+
+p#trois{
+  background-color: blue;
+}
+
+p#quatre{
+  background-color: red;
 }
